@@ -146,10 +146,20 @@ header {
   width: 100%;
   background-color: lightgrey;
 }
+@media (max-width: 800px) {
+  header {
+    height: auto;
+  }
+}
 nav {
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
 }
 nav a {
   text-decoration: none;

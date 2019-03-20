@@ -53,6 +53,8 @@ table {
     box-sizing: border-box;
 }
 
+@tablet: max-width: 800px;
+
 html, body {
     height: 100%;
 }
@@ -69,12 +71,19 @@ header {
 	height: 50px;
 	width: 100%;
 	background-color: lightgrey;
+	@media (@tablet) {
+		height: auto;
+	}
 }
 
 nav {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
+	@media (@tablet) {
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 nav a {
@@ -84,6 +93,8 @@ nav a {
 
 	&:hover {
 		color: blue;
+
+	@media (@tablet)
 	}
 }
 
