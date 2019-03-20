@@ -56,3 +56,63 @@ table {
 html, body {
     height: 100%;
 }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: lightgrey;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+	&:hover {
+		color: blue;
+	}
+}
+
+
+.hero {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+	background-image: url("hero-background.jpg");
+}
+
+.hero-left {
+	width: 50%;
+	img {
+		width:100%;
+	}
+}
+
+.hero-right {
+	width: 50%;
+	padding: 80px;
+	background: none;
+
+	h1 {
+		font-size: 3em;
+	}
+
+	p {
+		font-size: 2em;
+		margin-top: 1em;
+	}
+}
