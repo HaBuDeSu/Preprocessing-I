@@ -183,3 +183,18 @@ nav a:hover {
   font-size: 2em;
   margin-top: 1em;
 }
+.section-heading {
+  font-size: 1.5em;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+h2 {
+  font-size: 1.5em;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+table {
+  width: 100%;
+}
