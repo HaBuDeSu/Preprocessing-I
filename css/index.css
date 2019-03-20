@@ -198,3 +198,15 @@ h2 {
 table {
   width: 100%;
 }
+th {
+  font-weight: bold;
+  text-align: left;
+  height: 20px;
+}
+td {
+  height: 20px;
+}
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
