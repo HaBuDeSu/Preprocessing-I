@@ -1,19 +1,90 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-  <title>My Resume</title>
+    <title>Ken Ruf - Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#work-history">Work History</a>
+        <a href="#skills">Skills</a>
+        <a href="https://HaBuDeSu.github.io">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-left">
+          <img src="Headshot.jpg" class="headshot">
+        </div>
+        <div class="hero-right">
+          <h1>Ken Ruf</h1>
+          <p>5 years ago I was an online poker player who didn't know what a startup was.</p>
+          <p>I stumbled upon a YouTube video of an Elon Musk interview and it inspired me to look at the world and find a problem to solve.</p>
+          <p>I am passionate about education, specifically my mission is to pop the higher education bubble and work towards a future where every </p>
+        </div>
+      </div>
+      <section id="work-history">
+        <h2>Work History</h2>
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Job Title</th>
+            <th>Tenure</th>
+          </tr>
+          <tr>
+            <td>GrowthLoop</td>
+            <td>Founder/CEO</td>
+            <td>July 2018 - Present</td>
+          </tr>
+          <tr>
+            <td>Inspired eLearning</td>
+            <td>Data Analyst and Special Projects Associate</td>
+            <td>December 2014 - July 2018</td>
+          </tr>
+          <tr>
+            <td>Valde Capital</td>
+            <td>Private Equity Associate</td>
+            <td>October 2013 - December 2014</td>
+          </tr>
+        </table>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>Data Analysis</p>
+        <p>Google AdWords</p>
+        <p>Google Analytics</p>
+        <p>Microsoft Excel</p>
+        <p>Salesforce</p>
+        <p>A/B Testing</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+        <p>Financial Modeling</p>
+      </section>
+      <section id="contact">
+        <h2>If you would like to get in touch, drop me a message:</h2>
+        <form>
+          <label>Name:</label>
+          <input></input>
+          <label>Email:</label>
+          <input type="email"></input>
+          <label>Message:</label>
+          <input id="message"></input>
+          <button>Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
 </html>
